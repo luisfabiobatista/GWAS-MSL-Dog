@@ -558,6 +558,8 @@ sort -g Z_GWASbySNP_IgM_allcovarsMSL_assoc_all_lowest | head -n 5 | tail -n1
 
 ### Linear Regression Model to test association between MSL genotype frequence and kernel Density of canine visceral leishmaniasiss and Kernel concentration of human VL cases in Municipality of Bauru - São Paulo.
 
+Software: RStdio
+
 setwd("/media/fmusp/TOSHIBA EXT/Documentos/DOCUMENTOS EM 18-9-2017/Documentos/POS DOC/BEPE/MANUSCRIPT_3/ARQUIVOS_REVISÃO_29-9-2025")
 > pheno<-read.table(file = "/media/fmusp/TOSHIBA EXT/Documentos/DOCUMENTOS EM 18-9-2017/Documentos/POS DOC/BEPE/MANUSCRIPT_3/ARQUIVOS_REVISÃO_29-9-2025/MSLxKERNEL_ONLY_BAURU_OUT_MIX_tab_Manuscript_MSL-Dog_06-10-2025.txt", header=T, sep="\t", stringsAsFactors = F)
 
