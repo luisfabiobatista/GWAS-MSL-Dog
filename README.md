@@ -52,6 +52,9 @@ Which comprises 31586  SNPs
 ./plink --bfile mergepca_filtered.recode --exclude plink_sorted_filt.hwe --make-bed --out   mergepca_filtered.recode_hwe.filt --dog
 #Which returned 117870 in mergepca_filtered.recode_hwe.filt from 149456  SNPs in   mergepca_filtered.recode
 
+
+### GWAS for MSL:
+
 #lets create a kinship matrix:
 ./ldak5.2.linux --calc-kins-direct mergepca_filtered.recode_hwe.filt.kinship --bfile mergepca_filtered.recode_hwe.filt --ignore-weights YES --power -0.25
 
